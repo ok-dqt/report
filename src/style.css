@@ -1,0 +1,209 @@
+* {
+    margin: 0;
+    padding: 0;
+}
+body{
+    background: url(../img/bg.png) no-repeat center fixed;
+    background-size: cover;
+}
+.nav img{
+    float: left;
+    width: 80px;
+}
+.nav p{
+    font-size: 16px;
+    line-height: 25px;
+    font-weight: 400;
+    color: #fff;
+}
+.nav{
+    margin: 30px 20px 0 90px;
+}
+.test{
+    position: fixed;
+    width: calc(100% - 144px);
+    min-width: 1080px;
+    margin: 20px 90px 0 90px;
+    height: 800px;
+    background-color: #fff;
+    border-radius: 16px;
+}
+.test img{
+    position: relative;
+    left: 50%;
+    top: 180px;
+  	margin-left: -180px; /* 宽度的一半 */
+    width: 360px;
+    height: auto;
+}
+.test input{
+    position: absolute;
+    left: 50%;
+    bottom: 280px;
+    margin-left: -120px;
+    border-color: #0364FF;
+    height: 30px;
+    width: 240px;
+    border-radius: 4px;
+    padding: 4px 12px;
+    font-size: 14px;
+    color: #0364FF;
+}
+.buttom{
+    position: absolute;
+    left: 50%;
+    bottom: 280px;
+    margin-left: 68px;
+    width: 78px;
+    height: 42px;
+    background-color: #0364FF;
+    border-radius: 4px;
+    color: #fff;
+    font-size: 14px;
+    font-weight: 500;
+    text-align: center;
+    line-height: 42px;
+    text-decoration: none;
+}
+.buttom:hover{
+    background-color: #004cd9;
+}
+/* 以下是报告内容页面样式*/
+.report{
+    position: fixed;
+    width: calc(100% - 240px);
+    min-width: 1080px;
+    margin: 20px 90px 0 90px;
+    padding: 32px 48px;
+    height: 800px;
+    background-color: #fff;
+    border-radius: 16px;
+}
+.Headtop{
+    position: relative;
+    height: 44px;
+    padding-bottom: 24px;
+}
+.Headtop img{
+    float: left;
+}
+.Headtop p{
+    padding-left: 8px;
+    float: left;
+    color: #0a0f2c85;
+    font-size: 14px;
+}
+.sharebutton{
+    position: absolute;
+    top: 7px;
+    right: 0px;
+    float: right;
+    width: 112px;
+    height: 30px;
+    background-color: #0364FF;
+    border-radius: 4px;
+}
+.sharebutton:hover{
+    background-color: #004cd9;
+    cursor: default;
+}
+.sharebutton p{
+    padding: 4px 18px 4px 4px;
+    color: #fff;
+    font-size: 12px;
+    text-align: center;
+    line-height: 22px;
+}
+.sharebutton img{
+    margin: 9px 0 9px 18px;   
+}
+/* 分割线样式 */
+.line-d{
+    position: absolute;
+    bottom: 0;
+    width: 100%;
+    height: 1px;
+    border-top: #F0F0F0 1px solid ;
+}
+.line-r{
+    width: 1px;
+    height: 330px;
+    margin: 16px 32px 0px 32px;
+    border-right: #F0F0F0 1px solid;
+}
+.headinfo{
+    position: relative;
+    padding-top: 24px;
+    padding-bottom: 24px;
+}
+.headinfo img{
+    float: left;
+}
+.headinfo p{
+    float: left;
+}
+.headinfo h3{
+    line-height: 24px;
+    margin-left: 32px;
+}
+.info{
+    height: 16px;
+    margin-top: 8px;
+    margin-bottom: 8px;
+    font-size: 12px;
+}
+.PropertyTitle {
+    color:#0a0f2c45;    
+}
+.PropertyText {
+    color: #0a0f2c85;
+    margin-right: 32px;
+}
+.Titlecontainer{
+    display: flex;
+    align-items: center;
+    margin: 16px 0 16px 0;
+}
+.markh1{
+    padding-left: 8px;
+    font-size: 14px;
+    color: rgb(10, 15, 44, 0.85);
+    font-weight: bold;
+    line-height: 14px;
+}
+.mark{
+    width: 2px;
+    height: 14px;
+    background-color: #0364FF;
+    border-radius: 10px;
+}
+.data{
+    display: flex;
+}
+.data01{
+    flex: 0 0 160px;
+    width: 160px;
+    height: 76px;
+}
+.datatile{
+    color: rgb(10, 15, 44, 0.45);
+    font-size: 12px;
+    line-height: 22px;
+}
+.datatile01{
+    color: rgb(10, 15, 44, 0.85);
+    font-size: 30px;
+    line-height: 38px;
+    font-family:DIN Alternate ;
+}
+.data-line{
+    position: relative;
+    padding-bottom: 24px;
+}
+/* 数据图表样式 */
+.DataCharts{
+    display: flex;
+}
+.charts{
+    flex: 1;
+}

@@ -1,0 +1,129 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>数据报告--查收你的数据报告</title>
+    <link rel="stylesheet" href="style.css">
+    <script src="https://cdn.jsdelivr.net/npm/echarts/dist/echarts.min.js"></script>
+</head>
+<body>
+    <div class="nav">
+        <img src="../img/logo.svg" alt="logo">
+        <p>｜智能数据报告</p>
+    </div>
+    <div class="report">
+        <!-- 这里是头部客户成功信息内容-->
+        <div class="Headtop">
+            <img src="../img/img-02.png" width="44" height="44">
+            <p style="color:#0A0F2C">你好，我是火柴，你的营销顾问</p>
+            <br>
+            <p >以下是您今日加微渠道的外呼数据报告</p>
+        <!-- 右侧按钮信息 -->
+            <div class="sharebutton">
+                <img src="../img/sharebuttom.svg" width="12px" height="12px">
+                <p>分享给同事</p>
+            </div>
+        <!-- 分割线 -->
+            <div class="line-d"></div>
+        </div>
+        <!-- 任务基本信息 -->
+        <div class="headinfo">
+            <img src="../img/img-03.svg" >
+            <h3>西贝抖音渠道1月24号至2月12日用户加微转化报告（标题支持自定义编辑）</h3>
+            <div class="info">
+                <p class="PropertyTitle">数据源：</p>
+                <p class="PropertyText">抖音、京东、淘宝下单用户</p>
+                <p class="PropertyTitle">利益点：</p>
+                <p class="PropertyText">100元无门槛优惠券</p>
+                <p class="PropertyTitle">呼叫时间段：</p>
+                <p class="PropertyText">11:00-12:30；16:00-18:00</p>
+                <p class="PropertyTitle">执行话术：</p>
+                <p class="PropertyText">A/B Test（ROI：33.24）</p>
+            </div>
+            <!-- 核心转化数据 -->
+            <div class="line-d"></div>
+        </div>
+        <!-- 核心转化数据 -->
+        <div>
+            <div class="Titlecontainer">
+                <div class="mark"></div>
+                <p class="markh1">核心转化数据</p>
+            </div>
+            <div class="data">
+            <!-- 数据组 -->
+                <div class="data01">
+                    <p class="datatile">接通率</p>
+                    <p class="datatile01">78.43%</p>
+                </div>
+                <div class="data01">
+                    <p class="datatile">接通意向率</p>
+                    <p class="datatile01">41.25%</p>
+                </div>
+                <div class="data01">
+                    <p class="datatile">意向转化率</p>
+                    <p class="datatile01">20.00%</p>
+                </div>
+                <div class="data01">
+                    <p class="datatile">接通转化率</p>
+                    <p class="datatile01">8.23%</p>
+                </div>
+                <div class="data01">
+                    <p class="datatile">号单转化率</p>
+                    <p class="datatile01">6.33%</p>
+                </div>
+            </div>
+        </div>
+        <!-- 过程数据 -->
+        <div class="data-line">
+            <div class="Titlecontainer">
+                <div class="mark"></div>
+                <p class="markh1">过程数据</p>
+            </div>
+            <!-- 数据组 -->
+            <div class="data">
+                <div class="data01">
+                    <p class="datatile">外呼总量</p>
+                    <p class="datatile01">4,840</p>
+                </div>
+                <div class="data01">
+                    <p class="datatile">接通量</p>
+                    <p class="datatile01">3,398</p>
+                </div>
+                <div class="data01">
+                    <p class="datatile">A/B意向量</p>
+                    <p class="datatile01">1,453</p>
+                </div>
+                <div class="data01">
+                    <p class="datatile">涨粉量</p>
+                    <p class="datatile01">305</p>
+                </div>
+            </div>
+            <div class="line-d"></div>
+        </div>
+        <!-- 这里是数据图表样式 -->
+        <div class="DataCharts">
+            <div class="charts">
+                <div class="Titlecontainer">
+                    <div class="mark"></div>
+                    <p class="markh1">意向分布</p>
+                </div>
+                <div id="IntentionChart" style="width: 540px;height:300px;"></div> 
+            </div>
+            <div class="line-r"></div>
+            <div class="charts">
+                <div class="Titlecontainer">
+                    <div class="mark"></div>
+                    <p class="markh1">客户关注点</p>
+                </div>
+                <div id="Histogram" style="width: 540px; height: 300px;"></div> 
+            </div>   
+        </div>
+    </div>
+
+    <!-- 引入 echart-JavaScript 文件 -->
+    <script src="echat.js"></script>
+
+</body>
+</html>

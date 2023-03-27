@@ -1,0 +1,24 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<svg width="24px" height="24px" viewBox="0 0 24 24" version="1.1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink">
+    <title>编组 4</title>
+    <g id="POC阶段报告" stroke="none" stroke-width="1" fill="none" fill-rule="evenodd">
+        <g id="日报" transform="translate(-120.000000, -197.000000)">
+            <g id="编组-8" transform="translate(72.000000, 72.000000)">
+                <g id="编组-4" transform="translate(48.000000, 125.000000)">
+                    <rect id="矩形" fill="#0364FF" x="0" y="0" width="24" height="24" rx="4"></rect>
+                    <g id="编组" transform="translate(4.000000, 4.000000)">
+                        <rect id="矩形" fill-opacity="0.01" fill="#FFFFFF" fill-rule="nonzero" x="0" y="0" width="16" height="16"></rect>
+                        <line x1="7" y1="14.6666667" x2="6.66666667" y2="12" id="路径" stroke="#FFFFFF" stroke-linecap="round" stroke-linejoin="round"></line>
+                        <polygon id="路径" stroke="#FFFFFF" fill="#FFFFFF" fill-rule="nonzero" stroke-linecap="round" stroke-linejoin="round" points="14.6666667 14.6666667 14.6666667 4 8.33333333 4 8.66666667 6.66666667 9 9.33333333 9.33333333 12 7 14.6666667"></polygon>
+                        <line x1="9" y1="9.33333333" x2="11.6666667" y2="9.33333333" id="路径" stroke="#0364FF" stroke-linecap="round" stroke-linejoin="round"></line>
+                        <line x1="8.66666667" y1="6.66666667" x2="11.6666667" y2="6.66666667" id="路径" stroke="#0364FF" stroke-linecap="round" stroke-linejoin="round"></line>
+                        <polygon id="路径" stroke="#FFFFFF" fill="#FFFFFF" fill-rule="nonzero" stroke-linecap="round" stroke-linejoin="round" points="1.33333333 1.33333333 8 1.33333333 8.33333333 4 8.66666667 6.66666667 9 9.33333333 9.33333333 12 6.66666667 12 1.33333333 12"></polygon>
+                        <line x1="3.33333333" y1="4" x2="5.66666667" y2="4" id="路径" stroke="#0364FF" stroke-linecap="round" stroke-linejoin="round"></line>
+                        <line x1="3.33333333" y1="6.66666667" x2="6" y2="6.66666667" id="路径" stroke="#0364FF" stroke-linecap="round" stroke-linejoin="round"></line>
+                        <line x1="3.33333333" y1="9.33333333" x2="6.33333333" y2="9.33333333" id="路径" stroke="#0364FF" stroke-linecap="round" stroke-linejoin="round"></line>
+                    </g>
+                </g>
+            </g>
+        </g>
+    </g>
+</svg>
