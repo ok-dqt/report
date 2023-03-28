@@ -3,7 +3,7 @@
     padding: 0;
 }
 body{
-    background: url(../img/bg.png) no-repeat center fixed;
+    background: url(../docs/img/bg.png) no-repeat center fixed;
     background-size: cover;
 }
 .nav img{
