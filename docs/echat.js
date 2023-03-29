@@ -13,7 +13,6 @@ var option = {
       top: '10%',
       right: '10%',
       bottom: '10%'
-
     },
     series : [
         {
@@ -30,9 +29,9 @@ var option = {
             ],
             itemStyle: {
                 emphasis: {
-                    shadowBlur: 10,
+                    shadowBlur: 0,
                     shadowOffsetX: 0,
-                    shadowColor: 'rgba(0, 0, 0, 0.5)'
+                    shadowColor: 'rgba(0, 0, 0, 0)'
                 }
             }
         }

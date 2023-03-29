@@ -80,25 +80,34 @@ body{
     border-radius: 16px;
 }
 .Headtop{
+    display: flex;
+    flex-direction: row;
+    align-items: center;
     position: relative;
     height: 44px;
     padding-bottom: 24px;
 }
 .Headtop img{
-    float: left;
+    align-self: center;
 }
 .Headtop p{
-    padding-left: 8px;
-    float: left;
+    display: flex;
+    flex-direction: column;
+    justify-content: flex-end;
+    margin-left: 8px;
+    margin-bottom: 5px;
     color: #0a0f2c85;
     font-size: 14px;
+
 }
 .sharebutton{
+    display: flex;
+    align-items: center;
+    justify-content: center;
     position: absolute;
     top: 7px;
     right: 0px;
-    float: right;
-    width: 112px;
+    width: 120px;
     height: 30px;
     background-color: #0364FF;
     border-radius: 4px;
@@ -109,9 +118,9 @@ body{
 }
 .sharebutton p{
     padding: 4px 18px 4px 4px;
+    margin-bottom:0px;
     color: #fff;
     font-size: 12px;
-    text-align: center;
     line-height: 22px;
 }
 .sharebutton img{
